@@ -2,14 +2,14 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../how-to-learn/styles/normalize.css" />
-    <link rel="stylesheet" href="../how-to-learn/styles/style.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
   </head>
   <body>
     <div class="page">
-      <header class="header header_active">
+      <header class="header">
         <div class="logo logo_place_header"></div>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
@@ -21,11 +21,11 @@
         <div class="header__square-pic"></div>
       </header>
       <main class="content">
-        <section class="description description_active">
-          <div class="two-columns two-columns_active">
+        <section class="description">
+          <div class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             <div class="two-columns__main-text">
-              <p class="two-columns__paragraph two-columns__paragraph_top">
+              <p class="two-columns__paragraph">
                 Ни в школе, ни в институте нас не учат тому, как правильно
                 изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
                 тренируемся решать однообразные задачи, чтобы лучше сдать тест,
@@ -45,12 +45,12 @@
             </div>
           </div>
         </section>
-        <section class="digits digits_active">
-          <h2 class="section-title section-title_theme_white">Цифры и факты</h2>
-          <h3 class="section-subtitle section-subtitle_theme_white">
+        <section class="digits">
+          <h2 class="section-title">Цифры и факты</h2>
+          <h3 class="section-subtitle">
             Про учёбу и мозг
           </h3>
-          <div class="table table_theme_white">
+          <div class="table">
             <div class="table__cell">
               <h4 class="table__heading">86 миллиардов</h4>
               <p class="table__text">Число нейронов в мозге человека</p>
@@ -60,7 +60,7 @@
               <p class="table__text">
                 Число нуждающихся в повышении квалификации
               </p>
-              <p class="table__text table__text_source">Всемирный Банк, 2017</p>
+              <p class="table__text">Всемирный Банк, 2017</p>
             </div>
             <div class="table__cell">
               <h4 class="table__heading">1000 терабайт</h4>
@@ -95,19 +95,19 @@
             </div>
           </div>
         </section>
-        <section class="feinman feinman_active">
+        <section class="feinman">
           <h2 class="feinman__title">Метод Фейнмана</h2>
-          <h3 class="feinman__subtitle feinman_text_normal">
+          <p class="feinman__subtitle">
             Выучить и не забыть.
-          </h3>
-          <a class="feinman__link feinman_text_normal" href="#">Подробнее →</a>
+          </p>
+          <a class="feinman__link" href="#">Подробнее →</a>
           <img
             src="./images/feinman.png"
             alt="Фото Фейманна"
             class="feinman__image"
           />
         </section>
-        <section class="kaufman kaufman_active">
+        <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
             Принципы обучения
           </h2>
@@ -177,71 +177,71 @@
             </div>
           </div>
           <img
-            src="../how-to-learn/images/triangle.svg"
+            src="./images/triangle.svg"
             alt="Синий треугольник"
             class="kaufman__triangle"
           />
         </section>
       </main>
-      <footer class="footer footer_active">
+      <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
             <div class="logo logo_place_footer"></div>
             <p class="footer__autor">© 2019. Алексей Городбин</p>
           </div>
-          <div class="footer__column footer__column_content_info">
-            <h2 class="footer__column-heading ">О Практикуме</h2>
-            <div
-              class="footer__column-links footer__column-links_properties"
+          <nav class="footer__column footer__column_content_info">
+            <h2 class="footer__column-heading">О Практикуме</h2>
+            <ul
+              class="footer__column-links"
             >
-              <a href="#" class="footer__column-link footer_link_text"
+              <li><a href="#" class="footer__column-link"
                 >Главная</a
-              >
-              <a href="#" class="footer__column-link footer_link_text"
+              ></li>
+              <li><a href="#" class="footer__column-link"
                 >Концепция</a
-              >
-              <a href="#" class="footer__column-link footer_link_text"
+              ></li>
+              <li><a href="#" class="footer__column-link"
                 >Наставники</a
-              >
-            </div>
-          </div>
-          <div class="footer__column footer__column_content_social">
+              ></li>
+            </ul>
+          </nav>
+          <nav class="footer__column footer__column_content_social">
             <h2 class="footer__column-heading">Соцсети</h2>
-            <div
-              class="footer__social-icon footer__column-links_properties"
+            <ul
+              class="footer__column-links"
             >
-              <a
+              <li><a
                 href="https://facebook.com/"
                 target="_blank"
-                class="footer__social-icon__link footer_link_text"
+                class="footer__column-link"
                 ><img
                   src="images/facebook_white.svg"
                   alt="логотип Facebook"
-                  class="footer__social-icon__logo"
+                  class="footer__social-icon"
                 />Facebook</a
-              >
-              <a
+              ></li>
+              <li><a
                 href="https://vk.com"
                 target="_blank"
-                class="footer__social-icon__link footer_link_text"
+                class="footer__column-link"
                 ><img
                   src="images/vk_white.svg"
                   alt="логотип ВКонтакте"
-                  class="footer__social-icon__logo"
+                  class="footer__social-icon"
                 />ВКонтакте</a
-              >
-              <a
+              ></li>
+              <li><a
                 href="https://www.instagram.com/"
                 target="_blank"
-                class="footer__social-icon__link footer_link_text"
+                class="footer__column-link"
                 ><img
                   src="./images/instagram_white.svg"
                   alt="логотип Instagram"
-                  class="footer__social-icon__logo"
+                  class="footer__social-icon"
                 />Instagram</a
-              >
-            </div>
-          </div>
+              ></li>
+            </ul>
+          </nav>
         </div>
       </footer>
     </div>
