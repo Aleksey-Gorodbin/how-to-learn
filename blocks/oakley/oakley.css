@@ -1,9 +1,5 @@
-@import url(../two-columns/two-columns.css);
-
-@import url(../two-columns/_place/two-columns_place_oakley.css);
-
 .oakley {
   background-color: #f2f2f2;
-  padding-top: 160px;
+  padding-top: 60px;
   padding-bottom: 80px;
 }
