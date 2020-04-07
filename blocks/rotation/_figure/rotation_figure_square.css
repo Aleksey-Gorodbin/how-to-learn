@@ -1,4 +1,4 @@
-@keyframes rotation {
+@keyframes rotation-unicum {
   from {
     transform: rotate(-15deg);
   }
@@ -7,3 +7,6 @@
   }
 }
 
+.rotation {
+  animation: rotation-unicum 20s linear infinite;
+}
